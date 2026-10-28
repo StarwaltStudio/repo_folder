@@ -1,0 +1,18 @@
+.flexContainer {
+  display: flex;
+}
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 640px;
+  aspect-ratio: 1 / 1;
+}
+
+.flexContainer div {
+  background: yellow;
+  width: 6.25%;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  border: 1px solid black;
+  text-align: center;
+}
